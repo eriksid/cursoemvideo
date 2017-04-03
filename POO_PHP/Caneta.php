@@ -22,9 +22,9 @@ class Caneta {
     public function rabiscar(){
         
         if ($this->tampada){
-            echo "Erro";
+            echo "<p>Erro</p>";
         }else {
-            echo "Rabiscando";
+            echo "<p>Estou Rabiscando...</p>";
         }
         
     }
